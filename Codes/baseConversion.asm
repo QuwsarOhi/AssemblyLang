@@ -1,0 +1,17 @@
+.STACK 100H
+.DATA
+
+REM DW ?
+A DW ?
+B DW ?
+QUO DW ?
+
+
+.CODE
+
+DIVISION PROC
+     
+    
+
+MAIN PROC
+    
