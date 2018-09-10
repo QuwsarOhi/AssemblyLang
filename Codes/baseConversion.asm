@@ -21,7 +21,8 @@ DIVI PROC                   ; DOES A/B, REM, QUO
     IDIV BX
     
     MOV REM, DX
-    MOV QUO, AX   
+    MOV QUO, AX
+    RET  
     
 
 MULTI PROC                  ; DOES A*B = C
@@ -30,7 +31,7 @@ MULTI PROC                  ; DOES A*B = C
     IMUL BX
     
     MOV C, AX
-
+    RET
 
 
 INPUTVAL PROC               ; TAKES INPUT IN A
